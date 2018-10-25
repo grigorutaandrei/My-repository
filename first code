@@ -1,0 +1,17 @@
+#Compiling a format function using Python 3 
+
+import math
+
+radius = int(input("Enter the radius of circle:"))
+area = math.pi * (radius ** 2)
+
+#The following line will execute the comand of printing the designed text
+print ("The area of a circle is: \t%.2f" %area)
+
+#the use of a format function
+print ("The area of circle is :\t{:.2f}".format(area))
+______________________________________________________________
+# after compiling this lines the result will be: 
+#Enter the radius of circle:10                                                                                                          
+#The area of a circle is:        314.16                                                                                                 
+#The area of circle is : 314.16  
